@@ -8,13 +8,12 @@
     <link href="css/mui.min.css" rel="stylesheet"/>
     <script type="text/javascript" charset="utf-8">
       	mui.init();
-      	function setAvator(){
+      	onload=function(){
       		document.getElementById("avator").src=localStorage.avImg;
       	}
     </script>
 </head>
 <body>
-	<button onclick="setAvator()">设置我的头像</button>
 	<img src="" id="avator"/>
 </body>
 </html>
